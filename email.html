@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css">
+    <script src="bootstrap/js/jquery-1.11.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">OA系统</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp; Dashboard <span class="sr-only">(current)</span></a></li>
+                <li><a href="user.html"><span class="glyphicon glyphicon-user"></span>&nbsp;用户管理</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;内容管理</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-tags"></span>&nbsp;标签管理</a></li>
+                <li class="active"><a href="email.html"><span class="glyphicon glyphicon-envelope"></span>&nbsp;我的邮箱</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" style="padding:0px; margin: 5px;"><img src="images/touxiang.jpg" class="img-circle" style="width: 40px"></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        管理员<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;账户中心</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                最近联系人
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小罗</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小强</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小陆</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小马</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小李</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小王</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                               我的好友
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小罗</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小强</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小陆</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小马</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小李</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小王</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                我的联系人
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小罗</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小强</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小陆</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小马</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小李</a></li>
+                                <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;小王</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">已读邮件</h3>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;&nbsp;&nbsp;法师法师法萨芬<span class="pull-right">2017-6-6</span></a></li>
+                    <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;&nbsp;&nbsp;按时发生非得我<span class="pull-right">2017-6-6</span></a></li>
+                    <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;&nbsp;&nbsp;外国人的公司相关<span class="pull-right">2017-6-6</span></a></li>
+                    <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;&nbsp;&nbsp;大幅改善公司的<span class="pull-right">2017-6-6</span></a></li>
+                    <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;&nbsp;&nbsp;儿童热特问问<span class="pull-right">2017-6-6</span></a></li>
+                    <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-star-empty"></span>&nbsp;&nbsp;&nbsp;&nbsp;土豪提交的股份<span class="pull-right">2017-6-6</span></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

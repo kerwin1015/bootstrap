@@ -1,0 +1,31 @@
+.container{margin: 0 auto;padding:0 15px }
+*{box-sizing: border-box}/* 让小盒子正好能在  */
+[class*="col-"]{ /* [class*="col-"] 通配所有的以col-开头的class类名*/
+    height: 90px;
+    border: 1px solid silver;
+    float: left;
+}
+@media(min-width: 768px){
+    .container{
+        width: 750px;
+    }
+}
+@media(min-width: 992px){
+    .container{
+        width: 970px;
+    }
+    .col-md-1{
+        width: 8.333333%;
+    }
+    .col-md-8{
+        width: 66.666666%;
+    }
+    .col-md-4{
+        width: 33.333333%;
+    }
+}
+@media(min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
